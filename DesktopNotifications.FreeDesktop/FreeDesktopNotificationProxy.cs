@@ -15,7 +15,7 @@ namespace DesktopNotifications.FreeDesktop
     /// Interface for notifications
     /// </summary>
     [DBusInterface("org.freedesktop.Notifications")]
-    internal interface IFreeDesktopNotificationsProxy : IDBusObject
+    public interface IFreeDesktopNotificationsProxy : IDBusObject
     {
         Task<uint> NotifyAsync(string appName, uint replacesId, string appIcon, string summary, string body, string[] actions, IDictionary<string, object> hints, int expireTimeout);
 

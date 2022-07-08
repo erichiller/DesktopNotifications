@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Desktop Notifications Test
+Comment=Testing with DesktopNotifications Example.Avalonia
+Exec=/home/eric/dev/src/github.com/erichiller/DesktopNotifications/Example.Avalonia/bin/Debug/net6.0/Example.Avalonia %u
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Utility;
+
+# cp example.avalonia.desktop ~/.local/share/applications/
+# chmod u+x /home/eric/.local/share/applications/example.avalonia.desktop
+# sudo update-desktop-database
+
+
+#### IMPORTANT ####
+# 1. MAKE SURE I AM SENDING THE APPLICATION NAME "example.avalonia" !!
+# 2. make sure I am sending the string:sound-name:<<soundname>> hint ;; try different soundnames ! try paths too?
